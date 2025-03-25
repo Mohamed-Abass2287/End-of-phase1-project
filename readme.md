@@ -14,3 +14,6 @@ Navigate into the project directory:
 
 bash
 cd End-of-phase1-project
+
+<!-- browsing test -->
+Open the Application: Open the index.html file in your preferred browser to test the functionalities.

@@ -1,4 +1,15 @@
+<!-- Project Structure -->
+End-of-phase1-project/
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css       # Stylesheet for the app
+├── js/
+│   └── app.js          # JavaScript code
+├── db.json             # Mock database
+└── README.md           # Project documentation
+
 deployed link:https:(//mohamed-abass2287.github.io/End-of-phase1-project/)
+
 # End-of-phase1-project
 Budget Tracker
 Track your wallet today, live without regrets tomorrow!

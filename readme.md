@@ -75,5 +75,44 @@ DELETE /transactions/3
 Search Transactions
 Enter keywords in the search bar to filter transactions by description.
 
+ <!-- // Data Structure -->
+  The database consists of an array of transaction objects under the key transactions. Each transaction has the following properties:
+  
+  Fields:
+  id: A unique identifier for the transaction.
+  
+  Type: String or Number
+  
+  Example: "1" or 1734676788999
+  
+  description: A brief description of the transaction.
+  
+  Type: String
+  
+  Example: "Salary", "Groceries", "Transportation"
+  
+  amount: The monetary value associated with the transaction.
+  
+  Type: Number
+  
+  Example: 50000, 8000
+  
+  type: Specifies whether the transaction is an income or expense.
+  
+  Type: String
+  
+  Values: "income" or "expense"
+
+  <!-- API Endpoints: The server will expose the following endpoints: -->
+
+Get All Transactions: GET /transactions
+
+Add a Transaction: POST /transactions
+
+Update a Transaction: PUT /transactions/:id
+
+Delete a Transaction: DELETE /transactions/:id
+
+
 
 

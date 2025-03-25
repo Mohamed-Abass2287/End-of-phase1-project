@@ -13,3 +13,12 @@ Navigate into the project directory:
 
 bash
 cd End-of-phase1-project
+
+Run the JSON Server: Ensure you have JSON Server installed globally:
+
+bash
+npm install -g json-server
+Start the server:
+
+bash
+json-server --watch db.json --port 3000

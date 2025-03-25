@@ -35,4 +35,24 @@ const fetchTransactions = () => {
   fetch('http://localhost:3000/transactions')
 };
 
+<!-- Fetch Transactions -->
+Fetch all transactions dynamically when the page loads. Ensure that your API or backend server provides the following endpoint:eg 
+
+json
+GET /transactions
+[
+  {
+    "id": 1,
+    "description": "Salary",
+    "amount": 50000,
+    "type": "income"
+  },
+  {
+    "id": 2,
+    "description": "Groceries",
+    "amount": 2000,
+    "type": "expense"
+  }
+]
+
 

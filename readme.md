@@ -67,4 +67,13 @@ POST /transactions
   "type": "expense"
 }
 
+<!-- Delete Transactions -->
+Click the "Delete" button next to a transaction to remove it. It sends a DELETE request to the server:
+
+json
+DELETE /transactions/3
+Search Transactions
+Enter keywords in the search bar to filter transactions by description.
+
+
 

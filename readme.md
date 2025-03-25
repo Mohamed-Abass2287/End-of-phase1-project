@@ -55,4 +55,16 @@ GET /transactions
   }
 ]
 
+<!-- Add Transactions -->
+Use the "Add Transaction" form to submit new transactions. These transactions are sent to the server:
+
+json
+POST /transactions
+{
+  "id": 3,
+  "description": "Utilities",
+  "amount": 1500,
+  "type": "expense"
+}
+
 

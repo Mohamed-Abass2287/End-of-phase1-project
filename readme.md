@@ -1,7 +1,7 @@
 deployed link:https:(//mohamed-abass2287.github.io/End-of-phase1-project/)
 
 # End-of-phase1-project
-deployed link:https:(//mohamed-abass2287.github.io/End-of-phase1-project/)
+deployed link live at https://mohamed-abass2287.github.io/End-of-phase1-project/
 
 
 Budget Tracker
